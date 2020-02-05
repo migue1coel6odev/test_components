@@ -1,5 +1,5 @@
 import React from "react";
 
-const Chip = () => <span>CHIPPP</span>;
+const Chip = () => <span>test cheap</span>;
 
 export default Chip;

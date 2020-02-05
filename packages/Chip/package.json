@@ -1,0 +1,26 @@
+{
+  "name": "@ttdiana/chip",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "miguelcoelho <miguelcoelhodev@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/Chip.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "module"
+  ],
+  "scripts": {
+    "prepare": "yarn compile:module && yarn compile:lib",
+    "compile:module": "tsc --target es6 --outDir module ",
+    "compile:lib": "tsc --target es5 --module commonjs --outDir lib",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}

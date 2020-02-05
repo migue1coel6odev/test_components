@@ -5,9 +5,6 @@
     "prepare": "lerna run prepare",
     "publish": "lerna publish"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@storybook/addon-info": "^5.3.10",
